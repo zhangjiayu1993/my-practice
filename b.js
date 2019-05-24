@@ -1,4 +1,3 @@
-import { hello,world } from './a'
+var h = require('./a');
 
-hello('fooke');
-world('1');
+h.hello('fooke');

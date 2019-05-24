@@ -1,8 +1,8 @@
-export function hello(name){
+function hello(name){
 
     console.log('hello '+name);
 
 }
-export function world(x){
-    alert(x)
-}
+
+exports.hello = hello;
+
